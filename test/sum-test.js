@@ -14,5 +14,8 @@ describe ('Sum', function() {
       expect(sum()).to.equal(0);
       assert.equal(sum(),0);
     });
-    
+
+    it('Should only pass numbers as arguments', function(){
+
+    })
 });
